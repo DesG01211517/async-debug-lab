@@ -14,7 +14,7 @@ function displayUser(user) {
                            Email: ${user.email}`;
 }
 
-// Question 4: Why does this API call fail? no second .then statement
+// Question 4: Why does this API call fail? no second the css needs to be modified. It is giving a 304 not modified code.
 fetch("https://api.example.com/data")
   .then((response) => response.json())
   .catch((error) => {
